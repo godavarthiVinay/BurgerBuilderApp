@@ -3,24 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2cd82006-b853-44fd-aa5a-1127ef3441a2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.css" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.module.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.js" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.css" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.module.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/Burger.css" afterPath="$PROJECT_DIR$/src/components/Burger/Burger.module.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/Burger.js" afterPath="$PROJECT_DIR$/src/components/Burger/Burger.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.css" afterPath="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.module.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.js" afterPath="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.css" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.css" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.module.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.css" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.css" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.module.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,8 +71,8 @@
       <file leaf-file-name="Layout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Layout/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -400,12 +383,20 @@
       <workItem from="1579515416917" duration="5216000" />
       <workItem from="1579587619051" duration="12125000" />
       <workItem from="1579686186602" duration="10000" />
-      <workItem from="1579686212179" duration="765000" />
+      <workItem from="1579686212179" duration="833000" />
     </task>
+    <task id="LOCAL-00001" summary="Css files commit">
+      <created>1579687006254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579687006254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28419000" />
+    <option name="totallyTimeSpent" value="28487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -472,6 +463,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Css files commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Css files commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -813,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Layout/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
