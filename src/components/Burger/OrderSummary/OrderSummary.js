@@ -1,29 +1,35 @@
-import React from 'react';
+import React from "react";
+import classes from "./OrderSummary.module.css";
 
-import Aux from '../../../hoc/Aux';
-import Button from '../../UI/Button/Button';
-
-const orderSummary = ( props ) => {
-    const ingredientSummary = Object.keys( props.ingredients )
-        .map( igKey => {
-            return (
-                <li key={igKey}>
-                    <span style={{ textTransform: 'capitalize' }}>{igKey}</span>: {props.ingredients[igKey]}
-                </li> );
-        } );
+const orderSummary= (props)=>{
+    let ingredientsKeys =Object.keys(props.ingredients);
+    let list=ingredientsKeys.map((ingKey,index)=>{
+        let value=props.ingredients[ingKey];
+        let eachPrice=props.ingredientsPrices[ingKey]*value.toFixed(2);
+        return(
+            <li key={ingKey}>
+                <span >{ingKey}</span> : {value+"   ( "+eachPrice+" )"}
+            </li>
+        )
+    });
 
     return (
-        <Aux>
-            <h3>Your Order</h3>
-            <p>A delicious burger with the following ingredients:</p>
-            <ul>
-                {ingredientSummary}
-            </ul>
-            <p>Continue to Checkout?</p>
-            <Button btnType="Danger" clicked={props.purchaseCancelled}>CANCEL</Button>
-            <Button btnType="Success" clicked={props.purchaseContinued}>CONTINUE</Button>
-        </Aux>
-    );
+        <div className={classes.OrderSummary}>
+            <h3>Order Summary  </h3>
+            <hr style={{color:"white"}}/>
+            <br/>
+            <p>Your Order :</p>
+           <ul>
+               {list}
+           </ul>
+            <label>Total Price : {props.totalAmount.toFixed(2)}</label>
+            <p>Continue to checkout? </p>
+
+            <button className={[classes.Button,classes.Danger].join(" ")} onClick={props.cancelled}>CANCEL</button>
+            <button className={[classes.Button,classes.Success].join(" ")} onClick={props.continue}>CONTINUE</button>
+
+        </div>
+    )
 };
 
 export default orderSummary;

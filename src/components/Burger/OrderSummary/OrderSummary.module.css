@@ -1,4 +1,10 @@
-.Button {
+.OrderSummary {
+    margin: auto;
+
+    text-transform: capitalize;
+}
+
+.Button{
     background-color: transparent;
     border: none;
     color: white;
@@ -9,12 +15,6 @@
     margin: 10px;
     font-weight: bold;
 }
-
-.Button:first-of-type {
-    margin-left: 0;
-    padding-left: 0;
-}
-
 .Success {
     color: #5C9210;
 }
